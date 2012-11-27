@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="http://demos.kendoui.com/content/shared/js/people.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="http://cdn.kendostatic.com/2012.3.1114/js/kendo.all.min.js"></script>
+    <!-- script src="kendo.localization.js"></script -->
+    <script src="..\lang\kendo.ptBR.js"></script>
+    
+    <link href="http://cdn.kendostatic.com/2012.3.1114/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="http://cdn.kendostatic.com/2012.3.1114/styles/kendo.rtl.min.css" rel="stylesheet" />
+    <link href="http://cdn.kendostatic.com/2012.3.1114/styles/kendo.default.min.css" rel="stylesheet" />
+    <link href="http://cdn.kendostatic.com/2012.3.1114/styles/kendo.dataviz.min.css" rel="stylesheet" />
+    <link href="http://cdn.kendostatic.com/2012.3.1114/styles/kendo.dataviz.default.min.css" rel="stylesheet" />    
+     
+</head>
+<body>
+        <div id="example" class="k-content">
+            <div id="clientsDb">
+
+                <div id="grid" style="height: 380px"></div>
+
+            </div>
+
+            <style scoped>
+                #clientsDb {
+                    width: 692px;
+                    height: 413px;
+                    margin: 30px auto;
+                    padding: 51px 4px 0 4px;
+                    background: url('http://demos.kendoui.com/content/web/grid/clientsDb.png') no-repeat 0 0;
+                }
+            </style>
+            <script>
+
+                $(document).ready(function() {
+                
+                    $("#grid").kendoGrid({
+                        dataSource: {
+                            data: createRandomData(50),
+                            pageSize: 10
+                        },
+                        filterable: {
+                          messages: {
+                            clear: "Cancelar"
+                          }
+                        },
+                        columnMenu: true,
+                        groupable: true,
+                        sortable: true,
+                        pageable: {
+                            refresh: true,
+                            pageSizes: true
+                        },
+                        columns: [ {
+                                field: "FirstName",
+                                width: 90,
+                                title: "First Name"
+                            } , {
+                                field: "LastName",
+                                width: 90,
+                                title: "Last Name"
+                            } , {
+                                width: 100,
+                                field: "City"
+                            } , {
+                                field: "Title"
+                            } , {
+                                field: "BirthDate",
+                                type: "date",
+                                title: "Birth Date",
+                                template: '#= kendo.toString(BirthDate,"dd MMMM yyyy") #'
+                            } , {
+                                width: 50,
+                                field: "Age"
+                            }
+                        ]
+                    });
+                });
+            </script>
+        </div>
+
+
+</body>
+</html>
