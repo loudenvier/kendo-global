@@ -20,6 +20,8 @@
 * GNU General Public License (GPL) version 3.
 * For GPL requirements, please review: http://www.gnu.org/copyleft/gpl.html
 */
+
+kendo.ui.Locale = "Portugu√™s Brasileiro (pt-BR)";
 kendo.ui.ColumnMenu.prototype.options.messages = 
   $.extend(kendo.ui.ColumnMenu.prototype.options.messages, {
 
@@ -46,12 +48,12 @@ kendo.ui.FilterMenu.prototype.options.messages =
   
 /* FILTER MENU MESSAGES 
  ***************************************************************************/   
-	info: "TÌtulo:", // sets the text on top of the filter menu
-	filter: "Filtrar", // sets the text for the "Filter" button
-	clear: "Limpar", // sets the text for the "Clear" button
+	info: "T√≠tulo:",        // sets the text on top of the filter menu
+	filter: "Filtrar",      // sets the text for the "Filter" button
+	clear: "Limpar",        // sets the text for the "Clear" button
 	// when filtering boolean numbers
-	isTrue: "… verdadeiro", // sets the text for "isTrue" radio button
-	isFalse: "… falso", // sets the text for "isFalse" radio button
+	isTrue: "√â verdadeiro", // sets the text for "isTrue" radio button
+	isFalse: "√â falso",     // sets the text for "isFalse" radio button
 	//changes the text of the "And" and "Or" of the filter menu
 	and: "E",
 	or: "Ou",
@@ -65,32 +67,32 @@ kendo.ui.FilterMenu.prototype.options.operators =
 /* FILTER MENU OPERATORS (for each supported data type) 
  ****************************************************************************/   
   string: {
-      eq: "… igual",
-      neq: "… diferente",
-      startswith: "ComeÁa com",
-      contains: "ComtÈm",
-      doesnotcontain: "N„o contÈm",
+      eq: "√â igual",
+      neq: "√â diferente",
+      startswith: "Come√ßa com",
+      contains: "Comt√©m",
+      doesnotcontain: "N√£o cont√©m",
       endswith: "Termina com"
   },
   number: {
-      eq: "… igual",
-      neq: "… diferente",
-      gte: "… maior que ou igual a",
-      gt: "… maior que",
-      lte: "… menor que ou igual a",
-      lt: "… menor que"
+      eq: "√â igual",
+      neq: "√â diferente",
+      gte: "√â maior que ou igual a",
+      gt: "√â maior que",
+      lte: "√â menor que ou igual a",
+      lt: "√â menor que"
   },
   date: {
-      eq: "… igual",
-      neq: "… diferente",
-      gte: "… igual ou mais recente que",
-      gt: "… mais recente que",
-      lte: "… igual ou mais antigo que",
-      lt: "… mais antigo que"
+      eq: "√â igual",
+      neq: "√â diferente",
+      gte: "√â igual ou mais recente que",
+      gt: "√â mais recente que",
+      lte: "√â igual ou mais antigo que",
+      lt: "√â mais antigo que"
   },
   enums: {
-      eq: "… igual",
-      neq: "… diferente"
+      eq: "√â igual",
+      neq: "√â diferente"
   }
  /***************************************************************************/   
 });
@@ -102,13 +104,13 @@ kendo.ui.Pager.prototype.options.messages =
  ****************************************************************************/   
   display: "{0} - {1} de {2} itens",
   empty: "Nada a exibir",
-  page: "P·gina",
+  page: "P√°gina",
   of: "de {0}",
-  itemsPerPage: "itens por p·gina",
-  first: "Vai para primeira p·gina",
-  previous: "Vai para p·gina anterior",
-  next: "Vai para p·gina seguinte",
-  last: "Vai para ˙ltima p·gina",
+  itemsPerPage: "itens por p√°gina",
+  first: "Vai para primeira p√°gina",
+  previous: "Vai para p√°gina anterior",
+  next: "Vai para p√°gina seguinte",
+  last: "Vai para √∫ltima p√°gina",
   refresh: "Atualiza"
  /***************************************************************************/   
 });
@@ -118,14 +120,14 @@ kendo.ui.Validator.prototype.options.messages =
 
 /* VALIDATOR MESSAGES 
  ****************************************************************************/   
-  required: "{0} È obrigatÛrio",
-  pattern: "{0} n„o È v·lido",
+  required: "{0} √© obrigat√≥rio",
+  pattern: "{0} n√£o √© v√°lido",
   min: "{0} deve ser maior que ou igual a {1}",
   max: "{0} deve ser menor que ou igual a {1}",
-  step: "{0} n„o È v·lido",
-  email: "{0} n„o È um email v·lido",
-  url: "{0} n„o È uma URL v·lida",
-  date: "{0} n„o È uma data v·lida"
+  step: "{0} n√£o √© v√°lido",
+  email: "{0} n√£o √© um email v√°lido",
+  url: "{0} n√£o √© uma URL v√°lida",
+  date: "{0} n√£o √© uma data v√°lida"
  /***************************************************************************/   
 });
 
@@ -138,12 +140,12 @@ kendo.ui.ImageBrowser.prototype.options.messages =
   orderBy: "Classificar por",
   orderByName: "Nome",
   orderBySize: "Tamanho",
-  directoryNotFound: "Uma pasta com este nome n„o foi encontrada.",
+  directoryNotFound: "Uma pasta com este nome n√£o foi encontrada.",
   emptyFolder: "Pasta Vazia",
   deleteFile: 'Tem certeza que deseja excluir "{0}"?',
-  invalidFileType: "O arquivo selecionado \"{0}\" n„o È v·lido. Os tipos de arquivo suportados s„o {1}.",
-  overwriteFile: "Um arquivo com o nome \"{0}\" j· existe na pasta atual. VocÍ quer sobrescrevÍ-lo?",
-  dropFilesHere: "solte arquivos aqui para envi·-los"
+  invalidFileType: "O arquivo selecionado \"{0}\" n√£o √© v√°lido. Os tipos de arquivo suportados s√£o {1}.",
+  overwriteFile: "Um arquivo com o nome \"{0}\" j√° existe na pasta atual. Voc√™ quer sobrescrev√™-lo?",
+  dropFilesHere: "solte arquivos aqui para envi√°-los"
  /***************************************************************************/   
 });
 
@@ -153,16 +155,16 @@ kendo.ui.Editor.prototype.options.messages =
 /* EDITOR MESSAGES 
  ****************************************************************************/   
   bold: "Negrito",
-  italic: "It·lico",
+  italic: "It√°lico",
   underline: "Sublinhado",
   strikethrough: "Tachado",
   superscript: "Sobrescrito",
   subscript: "Subscrito",
   justifyCenter: "Centralizar texto",
-  justifyLeft: "Alinhar texto ‡ esquerda",
-  justifyRight: "Alinhar texto ‡ direita",
+  justifyLeft: "Alinhar texto √† esquerda",
+  justifyRight: "Alinhar texto √† direita",
   justifyFull: "Justificar",
-  insertUnorderedList: "Inserir list n„o ordenada",
+  insertUnorderedList: "Inserir list n√£o ordenada",
   insertOrderedList: "Iserir lista ordenada",
   indent: "Indentar",
   outdent: "Outdent",
@@ -170,7 +172,7 @@ kendo.ui.Editor.prototype.options.messages =
   unlink: "Remover link",
   insertImage: "Inserir imagem",
   insertHtml: "Inserir HTML",
-  fontName: "Selecionar famÌlia da fonte",
+  fontName: "Selecionar fam√≠lia da fonte",
   fontNameInherit: "(fonte herdada)",
   fontSize: "Selecionar tamanho da fonte",
   fontSizeInherit: "(tamanho herdado)",
@@ -183,11 +185,11 @@ kendo.ui.Editor.prototype.options.messages =
   orderBy: "Classificar por:",
   orderBySize: "Tamanho",
   orderByName: "Nome",
-  invalidFileType: "O arquivo selecionado \"{0}\" n„o È v·lido. Os arquivos suportados s„o {1}.",
+  invalidFileType: "O arquivo selecionado \"{0}\" n√£o √© v√°lido. Os arquivos suportados s√£o {1}.",
   deleteFile: 'Tem certeza que deseja excluir "{0}"?',
-  overwriteFile: 'Um arquivo com o nome "{0}" j· existe na pasta atual. VocÍ quer sobrescrevÍ-lo?',
-  directoryNotFound: "Uma pasta com este nome n„o foi encontrada.",
-  imageWebAddress: "EndereÁo internet",
+  overwriteFile: 'Um arquivo com o nome "{0}" j√° existe na pasta atual. Voc√™ quer sobrescrev√™-lo?',
+  directoryNotFound: "Uma pasta com este nome n√£o foi encontrada.",
+  imageWebAddress: "Endere√ßo internet",
   imageAltText: "Texto alternativo",
   dialogInsert: "Inserir",
   dialogButtonSeparator: "ou",
