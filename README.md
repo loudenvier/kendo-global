@@ -99,8 +99,8 @@ labels with the standard mechanism of passing individual options.
 Contributions are welcome
 =========================
 
-Currently only Portuguese (pt-BR and pt-PT). I'll accept any and all pull 
-requests for corrections and new languages (and also submissions by email).
+Currently only Portuguese (pt-BR and pt-PT) are supported. I'll accept any and 
+all pull requests for corrections and new languages (and also email submissions)
 
 Translating a language file is a trivial (but tedious) process. The file format
 is self-explanatory (but don't change anything outside comments and string 
