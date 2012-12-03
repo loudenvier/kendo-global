@@ -107,4 +107,7 @@ bellow!
 Credits
 =======
 
-pt-BR by Felipe Rocha Machado (http://feliperochamachado.com.br)
+| Language | Name                       | Author                                                    |
+| -------- | -------------------------- | --------------------------------------------------------- |
+| pt-BR    | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
+| pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
