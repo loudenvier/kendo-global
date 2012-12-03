@@ -27,6 +27,16 @@ like this:
 
     <script src="http://cdn.kendostatic.com/2012.3.1114/js/kendo.all.min.js"></script>
     <script src="\js\lang\kendo.ptBR.js"></script>
+    
+**Note**: The JS files are encoded in UTF-8 so your page should also be enconded
+in a compatible charset or else the special characters will look as garbage.
+The demos set the correct charset as shown bellow:
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8"> 
+        ...   
 
 Why
 ===
@@ -89,9 +99,8 @@ labels with the standard mechanism of passing individual options.
 Contributions are welcome
 =========================
 
-Currently only Brazilian Portuguese (pt-BR) is supported because that's my 
-mother tongue. I'll accept any and all pull requests for corrections and new
-languages (and also submissions by email).
+Currently only Portuguese (pt-BR and pt-PT). I'll accept any and all pull 
+requests for corrections and new languages (and also submissions by email).
 
 Translating a language file is a trivial (but tedious) process. The file format
 is self-explanatory (but don't change anything outside comments and string 
