@@ -121,3 +121,4 @@ Credits
 | pt-BR    | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
 | pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
 | es-EC    | Ecuadorian Spanish         | Andrés Checa                                              |
+| de-DE    | Standard German            | Claudio Mertz                                             |

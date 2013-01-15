@@ -2,11 +2,11 @@
 * Kendo UI Localization Project for v2012.3.1114 
 * Copyright 2012 Telerik AD. All rights reserved.
 * 
-* Ecuadorian Spanish (es-EC) Language Pack
+* Standard German (de-DE) Language Pack
 *
 * Project home  : https://github.com/loudenvier/kendo-global
 * Kendo UI home : http://kendoui.com
-* Author        : Andrés Checa
+* Author        : Claudio Mertz
 *                 
 *
 * This project is released to the public domain, although one must abide to the 
