@@ -57,7 +57,7 @@ kendo.ui.FilterMenu.prototype.options.messages =
 	//changes the text of the "And" and "Or" of the filter menu
 	and: "UND",
 	or: "ODER",
-  selectValue: "-seleccione un valor-"
+  selectValue: "-Wählen Sie einen Wert-"
  /***************************************************************************/   
 });
          
