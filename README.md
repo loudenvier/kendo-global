@@ -122,4 +122,4 @@ Credits
 | pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
 | es-EC    | Ecuadorian Spanish         | Andrés Checa                                              |
 | de-DE    | Standard German            | Claudio Mertz                                             |
-| fa-IR    | Persian/Farsi (Iran))      | Bahman Nikkhahan                                          |
+| fa-IR    | Persian/Farsi (Iran)       | Bahman Nikkhahan                                          |
