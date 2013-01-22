@@ -192,6 +192,6 @@ kendo.ui.Editor.prototype.options.messages =
       imageAltText: "متن جایگزین",
       dialogInsert: "درج",
       dialogButtonSeparator: "یا",
-      dialogCancel: "انصراق"
+      dialogCancel: "انصراف"
       /***************************************************************************/
   });
