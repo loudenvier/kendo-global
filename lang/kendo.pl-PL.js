@@ -2,7 +2,7 @@
 * Kendo UI Localization Project for v2012.3.1114 
 * Copyright 2012 Telerik AD. All rights reserved.
 * 
-* Portugal Portuguese (pt-PT) Language Pack
+* Polski Poland (pl-PL) Language Pack
 *
 * Project home  : https://github.com/loudenvier/kendo-global
 * Kendo UI home : http://kendoui.com

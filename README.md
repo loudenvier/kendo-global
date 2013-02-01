@@ -123,3 +123,4 @@ Credits
 | es-EC    | Ecuadorian Spanish         | Andrés Checa                                              |
 | de-DE    | Standard German            | Claudio Mertz                                             |
 | fa-IR    | Persian/Farsi (Iran)       | Bahman Nikkhahan                                          |
+| pl-PL    | Polski Poland (pl-PL)      | Miroslaw Szajner                                          |
