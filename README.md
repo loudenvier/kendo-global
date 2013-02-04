@@ -118,9 +118,11 @@ Credits
 
 | Language | Name                       | Author                                                    |
 | -------- | -------------------------- | --------------------------------------------------------- |
-| pt-BR    | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
-| pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
 | es-EC    | Ecuadorian Spanish         | Andrés Checa                                              |
+| da-DK    | Standard Danish            | Klaus Nielsen                                             |
 | de-DE    | Standard German            | Claudio Mertz                                             |
 | fa-IR    | Persian/Farsi (Iran)       | Bahman Nikkhahan                                          |
 | pl-PL    | Polski Poland (pl-PL)      | Miroslaw Szajner                                          |
+| pt-BR    | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
+| pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
+
