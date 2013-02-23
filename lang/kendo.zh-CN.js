@@ -176,7 +176,7 @@ kendo.ui.Editor.prototype.options.messages =
 	fontNameInherit: "（默认字体）",
 	fontSize: "请选择字号",
 	fontSizeInherit: "（默认字号）",
-	formatBlock: "清除格式",
+	formatBlock: "格式",
 	foreColor: "文字颜色",
 	backColor: "文字背景色",
 	style: "样式",
