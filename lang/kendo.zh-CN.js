@@ -21,7 +21,9 @@
 * For GPL requirements, please review: http://www.gnu.org/copyleft/gpl.html
 */
 
+kendo.culture("zh-CN"); // Add by IKKI
 kendo.ui.Locale = "Simplified Chinese (zh-CN)";
+
 kendo.ui.ColumnMenu.prototype.options.messages = 
 	$.extend(kendo.ui.ColumnMenu.prototype.options.messages, {
 
@@ -128,6 +130,24 @@ kendo.ui.Validator.prototype.options.messages =
 	email: "{0} 不是正确的电子邮件！",
 	url: "{0} 不是正确的网址！",
 	date: "{0} 不是正确的日期！"
+ /***************************************************************************/   
+});
+
+// The upload part add by IKKI
+kendo.ui.Upload.prototype.options.localization = 
+	$.extend(kendo.ui.Upload.prototype.options.localization, {
+
+/* UPLOAD LOCALIZATION
+ ****************************************************************************/   
+	select: "选择文件",
+	dropFilesHere: "将文件拖拽到此处上传",
+	cancel: "取消",
+	remove: "移除",
+	uploadSelectedFiles: "上传文件",
+	statusUploading: "上传中……",
+	statusUploaded: "上传成功！",
+	statusFailed: "上传失败！",
+	retry: "重试"
  /***************************************************************************/   
 });
 
