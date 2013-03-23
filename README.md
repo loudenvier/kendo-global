@@ -126,4 +126,6 @@ Credits
 | pl-PL    | Polski Poland (pl-PL)      | Miroslaw Szajner                                          |
 | pt-BR    | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
 | pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
-                                            
+| ru-RU    | Standard Russian           | Pavel Tsarenko                                            |
+| zh-CN    | Simplified Chinese         | IKKI Phoenix (Fenikkusu no Ikki :-)                       |
+
