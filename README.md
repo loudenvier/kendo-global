@@ -118,14 +118,14 @@ Credits
 
 | Language | Name                       | Author                                                    |
 | -------- | -------------------------- | --------------------------------------------------------- |
-| es-EC    | Ecuadorian Spanish         | Andrés Checa                                              |
-| es-MX    | Mexican Spanish            | Salvador Parra                                            |
 | da-DK    | Standard Danish            | Klaus Nielsen                                             |
 | de-DE    | Standard German            | Claudio Mertz                                             |
+| es-EC    | Ecuadorian Spanish         | Andrés Checa                                              |
+| es-MX    | Mexican Spanish            | Salvador Parra                                            |
 | fa-IR    | Persian/Farsi (Iran)       | Bahman Nikkhahan                                          |
+| it-IT    | Italian                    | Paolo Ascari                                              |
 | pl-PL    | Polski Poland (pl-PL)      | Miroslaw Szajner                                          |
 | pt-BR    | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
 | pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
 | ru-RU    | Standard Russian           | Pavel Tsarenko                                            |
 | zh-CN    | Simplified Chinese         | IKKI Phoenix (Fenikkusu no Ikki :-)                       |
-
