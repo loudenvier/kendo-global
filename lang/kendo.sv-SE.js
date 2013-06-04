@@ -107,12 +107,12 @@ kendo.ui.Pager.prototype.options.messages =
       empty: "Inga poster",
       page: "Sida",
       of: "av {0}",
-      itemsPerPage: "Poster pr sida",
-      first: "Förste sidan",
+      itemsPerPage: "Poster per sida",
+      first: "Första sidan",
       previous: "Föregående sida",
       next: "Nästa sida",
       last: "Sista sidan",
-      refresh: "Uppdatera
+      refresh: "Uppdatera"	
       /***************************************************************************/
   });
 
