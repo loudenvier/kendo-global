@@ -124,6 +124,7 @@ Credits
 | es-MX    | Mexican Spanish            | Salvador Parra                                            |
 | fa-IR    | Persian/Farsi (Iran)       | Bahman Nikkhahan                                          |
 | it-IT    | Italian                    | Paolo Ascari                                              |
+| nb-NO    | Standard Norwegian         | Mikael Gyth                                               |
 | pl-PL    | Polski Poland (pl-PL)      | Miroslaw Szajner                                          |
 | pt-BR    | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
 | pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
