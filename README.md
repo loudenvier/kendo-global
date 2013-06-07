@@ -99,7 +99,7 @@ labels with the standard mechanism of passing individual options.
 Contributions are welcome
 =========================
 
-Currently only a few languages are supported. I'll accept any and 
+Currently there are 14 language packs (and growing). I'll accept any and 
 all pull requests for corrections and new languages (and also email submissions)
 
 Translating a language file is a trivial (but tedious) process. The file format
