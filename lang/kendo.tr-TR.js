@@ -1,3 +1,26 @@
+/*
+* Kendo UI Localization Project for v2012.3.1114 
+* Copyright 2012 Telerik AD. All rights reserved.
+* 
+* Standard Trukish (tr-TR) Language Pack
+*
+* Project home  : https://github.com/loudenvier/kendo-global
+* Kendo UI home : http://kendoui.com
+* Author        : burdem (https://github.com/burdem)
+*                 
+*
+* This project is released to the public domain, although one must abide to the 
+* licensing terms set forth by Telerik to use Kendo UI, as shown bellow.
+*
+* Telerik's original licensing terms:
+* -----------------------------------
+* Kendo UI Web commercial licenses may be obtained at
+* https://www.kendoui.com/purchase/license-agreement/kendo-ui-web-commercial.aspx
+* If you do not own a commercial license, this file shall be governed by the
+* GNU General Public License (GPL) version 3.
+* For GPL requirements, please review: http://www.gnu.org/copyleft/gpl.html
+*/
+
 kendo.ui.Locale = "Türkçe (tr-TR)";
 kendo.ui.ColumnMenu.prototype.options.messages =
   $.extend(kendo.ui.ColumnMenu.prototype.options.messages, {

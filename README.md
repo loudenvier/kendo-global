@@ -128,6 +128,8 @@ Credits
 | pl-PL    | Polski Poland (pl-PL)      | Miroslaw Szajner                                          |
 | pt-BR    | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
 | pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
-| sv-SE    | Svenska                    | Johan Karlsson                                            |
 | ru-RU    | Standard Russian           | Pavel Tsarenko                                            |
+| sv-SE    | Svenska                    | Johan Karlsson                                            |
+| tr-TR    | Standard Turkish           | burdem                                                    |
 | zh-CN    | Simplified Chinese         | IKKI Phoenix (Fenikkusu no Ikki :-)                       |
+ 
