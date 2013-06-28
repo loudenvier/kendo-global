@@ -104,7 +104,7 @@ all pull requests for corrections and new languages (and also email submissions)
 
 Translating a language file is a trivial (but tedious) process. The file format
 is self-explanatory (but don't change anything outside comments and string 
-values as the file is a JavaScript executable file and will likely broke if 
+values as the file is a JavaScript executable file and will likely brake if 
 changes are made to its "code part"). 
 
 To get started just open any of the files and save a copy of it named after the 
@@ -129,7 +129,7 @@ Credits
 | pt-BR    | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
 | pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
 | ru-RU    | Standard Russian           | Pavel Tsarenko                                            |
-| sv-SE    | Svenska                    | Johan Karlsson                                            |
+| sv-SE    | Swedish                    | Johan Karlsson                                            |
 | tr-TR    | Standard Turkish           | burdem                                                    |
 | zh-CN    | Simplified Chinese         | IKKI Phoenix (Fenikkusu no Ikki :-)                       |
  
