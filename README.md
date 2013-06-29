@@ -116,20 +116,20 @@ bellow!
 Credits
 =======
 
-| Language | Name                       | Author                                                    |
-| -------- | -------------------------- | --------------------------------------------------------- |
-| da-DK    | Standard Danish            | Klaus Nielsen                                             |
-| de-DE    | Standard German            | Claudio Mertz                                             |
-| es-EC    | Ecuadorian Spanish         | Andrés Checa                                              |
-| es-MX    | Mexican Spanish            | Salvador Parra                                            |
-| fa-IR    | Persian/Farsi (Iran)       | Bahman Nikkhahan                                          |
-| it-IT    | Italian                    | Paolo Ascari                                              |
-| nb-NO    | Standard Norwegian         | Mikael Gyth                                               |
-| pl-PL    | Polski Poland (pl-PL)      | Miroslaw Szajner                                          |
-| pt-BR    | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
-| pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
-| ru-RU    | Standard Russian           | Pavel Tsarenko                                            |
-| sv-SE    | Swedish                    | Johan Karlsson                                            |
-| tr-TR    | Standard Turkish           | burdem                                                    |
-| zh-CN    | Simplified Chinese         | IKKI Phoenix (Fenikkusu no Ikki :-)                       |
+| Language                                                                            | Name                       | Author                                                    |
+| ----------------------------------------------------------------------------------- | -------------------------- | --------------------------------------------------------- |
+| [da-DK] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.da-DK.html) | Standard Danish            | Klaus Nielsen                                             |
+| [de-DE] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.de-DE.html) | Standard German            | Claudio Mertz                                             |
+| [es-EC] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.es-EC.html) | Ecuadorian Spanish         | Andrés Checa                                              |
+| [es-MX] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.es-MX.html) | Mexican Spanish            | Salvador Parra                                            |
+| [fa-IR] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.fa-IR.html) | Persian/Farsi (Iran)       | Bahman Nikkhahan                                          |
+| [it-IT] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.it-IT.html) | Italian                    | Paolo Ascari                                              |
+| [nb-NO] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.nb-NO.html) | Standard Norwegian         | Mikael Gyth                                               |
+| [pl-PL] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.pl-PL.html) | Polski Poland (pl-PL)      | Miroslaw Szajner                                          |
+| [pt-BR] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.pt-BR.html) | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
+| [pt-PT] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.pt-PT.html) | Portuguese (Portugal)      | Pedro Carvalho                                            |
+| [ru-RU] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.ru-RU.html) | Standard Russian           | Pavel Tsarenko                                            |
+| [sv-SE] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.sv-SE.html) | Swedish                    | Johan Karlsson                                            |
+| [tr-TR] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.tr-TR.html) | Standard Turkish           | burdem                                                    |
+| [zh-CN] (http://donkarlssonsan.github.io/kendo-global/demo/kendo_global.zh-CN.html) | Simplified Chinese         | IKKI Phoenix (Fenikkusu no Ikki :-)                       |
  
