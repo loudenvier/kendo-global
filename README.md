@@ -123,6 +123,7 @@ Credits
 | es-EC    | Ecuadorian Spanish         | Andrés Checa                                              |
 | es-MX    | Mexican Spanish            | Salvador Parra                                            |
 | fa-IR    | Persian/Farsi (Iran)       | Bahman Nikkhahan                                          |
+| hu-HU    | Hungarian                  | Janos Meszaros (Janez)                                    |
 | it-IT    | Italian                    | Paolo Ascari                                              |
 | nb-NO    | Standard Norwegian         | Mikael Gyth                                               |
 | pl-PL    | Polski Poland (pl-PL)      | Miroslaw Szajner                                          |
@@ -132,4 +133,3 @@ Credits
 | sv-SE    | Swedish                    | Johan Karlsson                                            |
 | tr-TR    | Standard Turkish           | burdem                                                    |
 | zh-CN    | Simplified Chinese         | IKKI Phoenix (Fenikkusu no Ikki :-)                       |
- 
