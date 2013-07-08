@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="http://demos.kendoui.com/content/shared/js/people.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="http://cdn.kendostatic.com/2012.3.1114/js/kendo.all.min.js"></script>
+    <!--
+     ! ALL THAT IS NEEDED IS TO INCLUDE THE DESIRED LANGUAGE FILE 
+     !-->
+    <script src="..\lang\kendo.nl-BE.js"></script>
+    
+    <link href="http://cdn.kendostatic.com/2012.3.1114/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="http://cdn.kendostatic.com/2012.3.1114/styles/kendo.rtl.min.css" rel="stylesheet" />
+    <link href="http://cdn.kendostatic.com/2012.3.1114/styles/kendo.default.min.css" rel="stylesheet" />
+    <link href="http://cdn.kendostatic.com/2012.3.1114/styles/kendo.dataviz.min.css" rel="stylesheet" />
+    <link href="http://cdn.kendostatic.com/2012.3.1114/styles/kendo.dataviz.default.min.css" rel="stylesheet" />    
+     
+</head>
+<body>
+
+  <h1 id="demoTitle">Nederlands (NL) - nl-BE</h1>
+
+  <div id="example" class="k-content">
+
+    <!-- GRID DEMO -->
+    <div id="clientsDb">
+    <h1>Grid demo</h1>
+        <div id="grid" style="height: 380px"></div>
+    </div>
+
+    <!-- EDITOR DEMO -->
+    <div class="k-content" style="width:692px; margin:0 auto;">
+    <br /><h1>Editor demo</h1>
+		<textarea id="editor" rows="10" cols="30" style="width:740px;height:440px">
+                &lt;p&gt;&lt;img src=&quot;http://www.kendoui.com/Image/kendo-logo.png&quot; alt=&quot;Editor for ASP.NET MVC logo&quot; style=&quot;display:block;margin-left:auto;margin-right:auto;&quot; /&gt;&lt;/p&gt;
+                &lt;p&gt;
+                    Kendo UI Editor allows your users to edit HTML in a familiar, user-friendly way.&lt;br /&gt;
+                    In this version, the Editor provides the core HTML editing engine, which includes basic text formatting, hyperlinks, lists,
+                    and image handling. The widget &lt;strong&gt;outputs identical HTML&lt;/strong&gt; across all major browsers, follows
+                    accessibility standards and provides API for content manipulation.
+                &lt;/p&gt;
+                &lt;p&gt;Features include:&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Text formatting &amp; alignment&lt;/li&gt;
+                    &lt;li&gt;Bulleted and numbered lists&lt;/li&gt;
+                    &lt;li&gt;Hyperlink and image dialogs&lt;/li&gt;
+                    &lt;li&gt;Cross-browser support&lt;/li&gt;
+                    &lt;li&gt;Identical HTML output across browsers&lt;/li&gt;
+                    &lt;li&gt;Gracefully degrades to a &lt;code&gt;textarea&lt;/code&gt; when JavaScript is turned off&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;
+                    Read &lt;a href=&quot;http://docs.kendoui.com&quot;&gt;more details&lt;/a&gt; or send us your
+                    &lt;a href=&quot;http://www.kendoui.com/forums.aspx&quot;&gt;feedback&lt;/a&gt;!
+                &lt;/p&gt;
+            </textarea>
+    </div>
+    
+    <!-- VALIDATOR DEMO -->
+    <div id="example" class="k-content">
+    <br /><h1>Validator demo</h1>
+    <div id="tickets">
+        <h3>Book Tickets</h3>
+        <ul>
+            <li>
+                <label for="fullname" class="required">Your Name</label>
+                <input type="text" id="fullname" name="fullname" class="k-textbox" placeholder="Full name" required />
+            </li>
+            <li>
+                <label for="search" class="required">Movie</label>
+                <input type="search" id="search" name="search" required /><span class="k-invalid-msg" data-for="search"></span>
+            </li>
+            <li>
+                <label for="amount">Amount</label>
+                <input id="amount" name="Amount" type="number" min="1" max="10" value="1" class="k-textbox k-input" required  /><span class="k-invalid-msg" data-for="amount"></span>
+            </li>
+            <li>
+                <label for="email" class="required">Email</label>
+                <input type="email" id="email" name="Email" class="k-textbox" placeholder="e.g. myname@example.net"  required />
+            </li>
+            <li>
+                <label for="tel" class="required">Phone</label>
+                <input type="tel" id="tel" name="tel" class="k-textbox" pattern="\d{10}" placeholder="Please enter a ten digit phone number" required
+                    />
+            </li>
+                <li  class="accept">
+                <input type="checkbox" name="Accept" required /> I accept the terms and condition of service
+            </li>
+
+            <li  class="accept">
+                <button class="k-button" type="submit">Submit</button>
+            </li>
+            <li class="status">
+            </li>
+        </ul>
+    </div>
+    
+    </div>
+    
+    
+  </div>
+                    
+  <style scoped>
+      h1 { 
+        width:680px; 
+        margin:0 auto; 
+      }
+      
+      #clientsDb {
+          width: 692px;
+          height: 413px; 
+          margin: 30px auto;
+          padding: 51px 4px 0 4px;
+          /*background: url('http://demos.kendoui.com/content/web/grid/clientsDb.png') no-repeat 0 0; */
+      }
+      
+      .k-textbox {
+          width: 11.8em;
+      }
+
+      #tickets {
+          width: 510px;
+          height: 323px;
+          margin: 30px auto;
+          padding: 10px 20px 20px 170px;
+          background: url('http://demos.kendoui.com/content/web/validator/ticketsOnline.png') transparent no-repeat 0 0;
+      }
+
+      #tickets h3 {
+          font-weight: normal;
+          font-size: 1.4em;
+          border-bottom: 1px solid #ccc;
+      }
+
+      #tickets ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+      }
+      #tickets li {
+          margin: 10px 0 0 0;
+      }
+
+      label {
+          display: inline-block;
+          width: 90px;
+          text-align: right;
+      }
+
+      .required {
+          font-weight: bold;
+      }
+
+      .accept, .status {
+          padding-left: 90px;
+      }
+
+      .valid {
+          color: green;
+      }
+
+      .invalid {
+          color: red;
+      }
+      span.k-tooltip {
+          margin-left: 6px;
+      }
+      
+  </style>
+  <script>
+  
+      $(document).ready(function() {
+          
+          $("#files").kendoUpload();
+          
+          $("#demoTitle").text(kendo.ui.Locale);
+
+          // create Editor from textarea HTML element with default set of tools
+          $("#editor").kendoEditor();
+      
+          $("#grid").kendoGrid({
+              dataSource: {
+                  data: createRandomData(50),
+                  pageSize: 10
+              },
+              filterable: true,
+              columnMenu: true,
+              groupable: true,
+              sortable: true,
+              pageable: {
+                  refresh: true,
+                  pageSizes: true
+              },
+              columns: [ {
+                      field: "FirstName",
+                      width: 90,
+                      title: "First Name"
+                  } , {
+                      field: "LastName",
+                      width: 90,
+                      title: "Last Name"
+                  } , {
+                      width: 100,
+                      field: "City"
+                  } , {
+                      field: "Title"
+                  } , {
+                      field: "BirthDate",
+                      type: "date",
+                      title: "Birth Date",
+                      template: '#= kendo.toString(BirthDate,"dd MMMM yyyy") #'
+                  } , {
+                      width: 50,
+                      field: "Age"
+                  }
+              ]
+          });
+            
+          var data = [
+          "12 Angry Men",
+          "Il buono, il brutto, il cattivo.",
+          "Inception",
+          "One Flew Over the Cuckoo's Nest",
+          "Pulp Fiction",
+          "Schindler's List",
+          "The Dark Knight",
+          "The Godfather",
+          "The Godfather: Part II",
+          "The Shawshank Redemption"
+          ];
+
+          $("#search").kendoAutoComplete({
+              dataSource: data,
+              separator: ", "
+          });
+
+          var validator = $("#tickets").kendoValidator().data("kendoValidator"),
+          status = $(".status");
+
+          $("button").click(function() {
+              if (validator.validate()) {
+                  status.text("Hooray! Your tickets has been booked!").addClass("valid");
+                  } else {
+                  status.text("Oops! There is invalid data in the form.").addClass("invalid");
+              }
+          });
+
+      });
+  </script>
+
+
+</body>
+</html>
