@@ -123,6 +123,7 @@ Credits
 | es-EC    | Ecuadorian Spanish         | Andrés Checa                                              |
 | es-MX    | Mexican Spanish            | Salvador Parra                                            |
 | fa-IR    | Persian/Farsi (Iran)       | Bahman Nikkhahan                                          |
+| fr-CA    | French (Canadian)          | Martin Auclair                                            |
 | hu-HU    | Hungarian                  | Janos Meszaros (Janez)                                    |
 | it-IT    | Italian                    | Paolo Ascari                                              |
 | nb-NO    | Standard Norwegian         | Mikael Gyth                                               |
