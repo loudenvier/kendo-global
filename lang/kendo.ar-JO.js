@@ -2,7 +2,7 @@
 * Kendo UI Localization Project for v2012.3.1114 
 * Copyright 2012 Telerik AD. All rights reserved.
 * 
-* English US (en-US) Language Pack
+* Arabic JO (ar-JO) Language Pack
 *
 * Project home  : https://github.com/loudenvier/kendo-global
 * Kendo UI home : http://kendoui.com
