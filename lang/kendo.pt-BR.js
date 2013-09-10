@@ -70,7 +70,7 @@ kendo.ui.FilterMenu.prototype.options.operators =
       eq: "É igual",
       neq: "É diferente",
       startswith: "Começa com",
-      contains: "Comtém",
+      contains: "Contém",
       doesnotcontain: "Não contém",
       endswith: "Termina com"
   },
