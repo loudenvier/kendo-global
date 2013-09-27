@@ -1,13 +1,12 @@
 /*
- * Kendo UI Localization Project for v2012.3.1114
- * Copyright 2012 Telerik AD. All rights reserved.
+ * Kendo UI Localization Project for v2013.2.716
+ * Copyright 2013 Telerik AD. All rights reserved.
  *
  * Standard Russian (ru-RU) Language Pack
  *
  * Project home  : https://github.com/loudenvier/kendo-global
  * Kendo UI home : http://kendoui.com
- * Author        : Pavel Tsarenko
- *
+ * Author        : Pavel Tsarenko, Alexander Pyatakov
  *
  * This project is released to the public domain, although one must abide to the
  * licensing terms set forth by Telerik to use Kendo UI, as shown bellow.
@@ -120,7 +119,7 @@ kendo.ui.Validator.prototype.options.messages =
 
         /* VALIDATOR MESSAGES
          ****************************************************************************/
-        required: "{0} обазателен",
+        required: "{0} обязателен",
         pattern: "{0} не верен",
         min: "{0} должен быть больше или равен {1}",
         max: "{0} должен быть меньше или равен {1}",
@@ -154,7 +153,7 @@ kendo.ui.Editor.prototype.options.messages =
 
         /* EDITOR MESSAGES
          ****************************************************************************/
-        bold: "Жирный",
+        bold: "Полужирный",
         italic: "Курсив",
         underline: "Подчеркнутый",
         strikethrough: "Зачеркнутый",
@@ -163,20 +162,28 @@ kendo.ui.Editor.prototype.options.messages =
         justifyCenter: "По центру",
         justifyLeft: "По левому краю",
         justifyRight: "По правому краю",
-        justifyFull: "По середине",
+        justifyFull: "По ширине",
         insertUnorderedList: "Вставить маркированный список",
         insertOrderedList: "Вставить нумерованный список",
-        indent: "Уменьшить отступ",
-        outdent: "Увеличить отступ",
-        createLink: "Втсавить ссылку",
-        unlink: "Убрать ссылку",
+        indent: "Увеличить отступ",
+        outdent: "Уменьшить отступ",
+        createLink: "Вставить гиперссылку",
+        unlink: "Удалить гиперссылку",
         insertImage: "Вставить изображение",
+        createTable: "Вставить таблицу",
+        addRowAbove: "Вставить строку сверху",
+        addRowBelow: "Вставить строку снизу",
+        addColumnLeft: "Вставить столбец слева",
+        addColumnRight: "Вставить столбец справа",
+        deleteRow: "Удалить строку",
+        deleteColumn: "Удалить столбец",
+        viewHtml: "Просмотр HTML",
         insertHtml: "Вставить HTML",
         fontName: "Шрифт",
         fontNameInherit: "(наследовать шрифт)",
         fontSize: "Размер шрифта",
         fontSizeInherit: "(наследовать размер)",
-        formatBlock: "Форматирование",
+        formatting: "Форматирование",
         foreColor: "Цвет шрифта",
         backColor: "Цвет фона",
         style: "Стиль",
@@ -187,12 +194,17 @@ kendo.ui.Editor.prototype.options.messages =
         orderByName: "Имя",
         invalidFileType: "Выбранный файл \"{0}\" не поддерживается. Доступные типы {1}.",
         overwriteFile: "Файл \"{0}\" уже существует. Заменить?",
-        deleteFile: 'Вы уверены что хотите удалить "{0}"?',
-        directoryNotFound: "Каталог не найден.",
-        imageWebAddress: "Web адрес",
+        deleteFile: 'Вы действительно хотите удалить "{0}"?',
+        directoryNotFound: "Каталог с указанным именем не существует",
+        imageWebAddress: "Веб-адрес",
         imageAltText: "Альтернативный текст",
         dialogInsert: "Вставить",
+        dialogUpdate: "Обновить",
         dialogButtonSeparator: "или",
-        dialogCancel: "Отменить"
+        dialogCancel: "Отменить",
+        linkWebAddress: "Веб-адрес",
+        linkText: "Текст",
+        linkToolTip: "Всплывающая подсказка",
+        linkOpenInNewWindow: "Открыть ссылку в новом окне"
         /***************************************************************************/
     });
