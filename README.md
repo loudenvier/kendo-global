@@ -118,17 +118,20 @@ Credits
 
 | Language | Name                       | Author                                                    |
 | -------- | -------------------------- | --------------------------------------------------------- |
+| ar-JO    | Arabic                     | Wael Mahameed                                             |
 | da-DK    | Standard Danish            | Klaus Nielsen                                             |
 | de-DE    | Standard German            | Claudio Mertz                                             |
 | es-EC    | Ecuadorian Spanish         | Andrés Checa                                              |
+| es-ES    | Spanish Standard           | i0i0                                                      |
 | es-MX    | Mexican Spanish            | Salvador Parra                                            |
+| es-PA    | Panamanian Spanish         | Bolívar Muñoz                                             |
 | fa-IR    | Persian/Farsi (Iran)       | Bahman Nikkhahan                                          |
 | fr-CA    | French (Canadian)          | Martin Auclair                                            |
-| fr-FR    | French Standard            | jvanderbiest                                              |
+| fr-FR    | French Standard            | Jonas Van der Biest                                       |
 | hu-HU    | Hungarian                  | Janos Meszaros (Janez)                                    |
 | it-IT    | Italian                    | Paolo Ascari                                              |
 | nb-NO    | Standard Norwegian         | Mikael Gyth                                               |
-| nl-BE    | Dutch (Belgium)            | jvanderbiest                                              |
+| nl-BE    | Dutch (Belgium)            | Jonas Van der Biest                                       |
 | pl-PL    | Polski Poland (pl-PL)      | Miroslaw Szajner                                          |
 | pt-BR    | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
 | pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
@@ -136,3 +139,9 @@ Credits
 | sv-SE    | Swedish                    | Johan Karlsson                                            |
 | tr-TR    | Standard Turkish           | burdem                                                    |
 | zh-CN    | Simplified Chinese         | IKKI Phoenix (Fenikkusu no Ikki :-)                       |
+
+Contributors
+============
+
+The following people contributed with corrections, updates and suggestions:
+Alexander Pyatakov, Thiago H. Oliveira, DonKarlssonSan.
