@@ -39,7 +39,7 @@ kendo.ui.Groupable.prototype.options.messages =
 
       /* GRID GROUP PANEL MESSAGES 
       ****************************************************************************/
-      empty: "Træk en kollonneoverskrift og slip den her for at gruppere efter denne kolonne"
+      empty: "Træk en kolonneoverskrift og slip den her for at gruppere efter denne kolonne"
       /***************************************************************************/
   });
 
@@ -106,7 +106,7 @@ kendo.ui.Pager.prototype.options.messages =
       empty: "Ingen poster",
       page: "Side",
       of: "af {0}",
-      itemsPerPage: "Poster pr side",
+      itemsPerPage: "Poster pr. side",
       first: "Første side",
       previous: "Forrige side",
       next: "Næste side",
@@ -178,7 +178,7 @@ kendo.ui.Editor.prototype.options.messages =
       fontSizeInherit: "(Nedarv skriftstørrelse)",
       formatBlock: "Format",
       foreColor: "Farve",
-      backColor: "Baggrunds farve",
+      backColor: "Baggrundsfarve",
       style: "Stil",
       emptyFolder: "Tom mappe",
       uploadFile: "Sender",
@@ -190,7 +190,7 @@ kendo.ui.Editor.prototype.options.messages =
       overwriteFile: "En fil med samme navn \"{0}\" eksisterer i forvejen, vil du overskrive?",
       directoryNotFound: "Biblioteket blev ikke fundet.",
       imageWebAddress: "Internet adresse",
-      imageAltText: "Alternativ Text",
+      imageAltText: "Alternativ tekst",
       dialogInsert: "Indsæt",
       dialogButtonSeparator: "eller",
       dialogCancel: "Annuller"
