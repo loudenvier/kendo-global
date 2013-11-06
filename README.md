@@ -144,4 +144,4 @@ Contributors
 ============
 
 The following people contributed with corrections, updates and suggestions:
-Alexander Pyatakov, Thiago H. Oliveira, DonKarlssonSan.
+Alexander Pyatakov, Thiago H. Oliveira, DonKarlssonSan, Jesper Kamstrup Linnet.
