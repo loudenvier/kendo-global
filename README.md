@@ -136,6 +136,7 @@ Credits
 | pt-BR    | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
 | pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
 | ru-RU    | Standard Russian           | Pavel Tsarenko                                            |
+| sk-SK    | Slovak                     | majsterka                                                 |
 | sv-SE    | Swedish                    | Johan Karlsson                                            |
 | tr-TR    | Standard Turkish           | burdem                                                    |
 | zh-CN    | Simplified Chinese         | IKKI Phoenix (Fenikkusu no Ikki :-)                       |
