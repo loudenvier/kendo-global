@@ -162,8 +162,33 @@ var labels = {
 			"dialogButtonSeparator": "o",
 			"dialogCancel": "Cancelar"
 		}
+	},
+	"Upload": {
+		"localization": {
+			'select': "Selecciona ficheros...",
+			'cancel': "Cancelar",
+			'retry': "Intentar de nuevo",
+			'remove': "Eliminar",
+			'uploadSelectedFiles': "Subir ficheros",
+			'dropFilesHere': "Arrastra ficheros aquí para subir",
+			'statusUploading': "subiendo",
+			'statusUploaded': "subidos",
+			'statusFailed': "error",
+			'headerStatusUploading': "Subiendo...",
+			'headerStatusUploaded': "Terminado"
+		}
 	}
 };
+
+kendo.ui.NumericTextBox.prototype.options =
+    $.extend(kendo.ui.NumericTextBox.prototype.options, {
+
+        /* NUMERIC TEXT BOX OR INTEGER TEXT BOX MESSAGES
+        ****************************************************************************/
+        upArrowText: "Incrementa valor",
+        downArrowText: "Decrementa valor"
+        /***************************************************************************/
+    });
 
 // Loop through all Components
 for(var componentName in labels){
