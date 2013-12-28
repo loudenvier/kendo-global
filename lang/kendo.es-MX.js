@@ -197,3 +197,34 @@ kendo.ui.Editor.prototype.options.messages =
   dialogCancel: "Cancelar"
  /***************************************************************************/   
 });
+
+kendo.ui.NumericTextBox.prototype.options =
+    $.extend(kendo.ui.NumericTextBox.prototype.options, {
+
+        /* NUMERIC TEXT BOX OR INTEGER TEXT BOX MESSAGES
+        ****************************************************************************/
+        upArrowText: "Incrementa valor",
+        downArrowText: "Decrementa valor"
+        /***************************************************************************/
+    });
+
+//The upload part add by IKKI
+kendo.ui.Upload.prototype.options.localization = 
+	$.extend(kendo.ui.Upload.prototype.options.localization, {
+
+/* UPLOAD LOCALIZATION
+ ****************************************************************************/   
+	select: "Selecciona ficheros...",
+	cancel: "Cancelar",
+	retry: "Intentar de nuevo",
+	remove: "Eliminar",
+	uploadSelectedFiles: "Subir ficheros",
+	dropFilesHere: "Arrastra ficheros aquí para subir",
+	statusUploading: "subiendo",
+	statusUploaded: "subidos",
+	statusFailed: "error",
+	headerStatusUploading: "Subiendo...",
+	headerStatusUploaded: "Terminado"
+ /***************************************************************************/   
+});
+

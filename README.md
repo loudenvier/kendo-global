@@ -122,8 +122,8 @@ Credits
 | da-DK    | Standard Danish            | Klaus Nielsen                                             |
 | de-DE    | Standard German            | Claudio Mertz                                             |
 | es-EC    | Ecuadorian Spanish         | Andrés Checa                                              |
-| es-ES    | Spanish Standard           | i0i0                                                      |
-| es-MX    | Mexican Spanish            | Salvador Parra                                            |
+| es-ES    | Spanish Standard           | i0i0,Joe Bordes(JPL TSolucio)                             |
+| es-MX    | Mexican Spanish            | Salvador Parra,Joe Bordes(JPL TSolucio)                   |
 | es-PA    | Panamanian Spanish         | Bolívar Muñoz                                             |
 | fa-IR    | Persian/Farsi (Iran)       | Bahman Nikkhahan                                          |
 | fr-CA    | French (Canadian)          | Martin Auclair                                            |
