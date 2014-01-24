@@ -1,13 +1,13 @@
 /*
-* Kendo UI Localization Project for v2012.3.1114 
-* Copyright 2012 Telerik AD. All rights reserved.
+* Kendo UI Localization Project for v2013.3.1316
+* Copyright 2014 Telerik AD. All rights reserved.
 * 
 * Ecuadorian Spanish (es-EC) Language Pack
 *
 * Project home  : https://github.com/loudenvier/kendo-global
 * Kendo UI home : http://kendoui.com
 * Author        : Andrés Checa
-*                 
+* Update        : Joe Bordes (JPL TSolucio, S.L.)
 *
 * This project is released to the public domain, although one must abide to the 
 * licensing terms set forth by Telerik to use Kendo UI, as shown bellow.
@@ -30,7 +30,9 @@ kendo.ui.ColumnMenu.prototype.options.messages =
   sortAscending: "Ascendente",
   sortDescending: "Descendente",
   filter: "Filtro",
-  columns: "Columnas"
+  columns: "Columnas",
+  done: "Terminado",
+  settings: "Configuración Columna"
  /***************************************************************************/   
 });
 
@@ -57,7 +59,10 @@ kendo.ui.FilterMenu.prototype.options.messages =
 	//changes the text of the "And" and "Or" of the filter menu
 	and: "Y",
 	or: "O",
-  selectValue: "-seleccione un valor-"
+  selectValue: "-seleccione un valor-",
+	operator: "Operador",
+	value: "Valor",
+	cancel: "Cancelar"
  /***************************************************************************/   
 });
          
@@ -109,7 +114,7 @@ kendo.ui.Pager.prototype.options.messages =
   itemsPerPage: "ítems por página",
   first: "Ir a la primera página",
   previous: "Ir a la página anterior",
-  next: "Ir a la página seguiente",
+  next: "Ir a la página siguiente",
   last: "Ir a la última página",
   refresh: "Refrescar"
  /***************************************************************************/   
@@ -145,7 +150,8 @@ kendo.ui.ImageBrowser.prototype.options.messages =
   deleteFile: '¿Está seguro que desea eliminar "{0}"?',
   invalidFileType: "El archivo seleccionado \"{0}\" no es válido. Los tipos de archivos soportados son {1}.",
   overwriteFile: "Un archivo con el nombre \"{0}\" ya existe en la carpeta actual. ¿Desea sobrescribirlo?",
-  dropFilesHere: "coloque los archivos aquí"
+  dropFilesHere: "coloque los archivos aquí",
+  search: "Buscar"
  /***************************************************************************/   
 });
 
@@ -172,11 +178,14 @@ kendo.ui.Editor.prototype.options.messages =
   unlink: "Remover enlace",
   insertImage: "Insertar imagen",
   insertHtml: "Insertar HTML",
+  viewHtml: "Ver HTML",
   fontName: "Seleccionar la fuente",
   fontNameInherit: "(fuente heredada)",
   fontSize: "Seleccionar tamaño de la fuente",
   fontSizeInherit: "(tamaño heredado)",
   formatBlock: "Formatear",
+  formatting: "Formateando",
+  paragraph: "Párrafo",
   foreColor: "Color",
   backColor: "Color de fondo",
   style: "Estilos",
@@ -191,8 +200,52 @@ kendo.ui.Editor.prototype.options.messages =
   directoryNotFound: "El directorio no fue encontrado.",
   imageWebAddress: "Dirección de internet",
   imageAltText: "Texto alternativo",
+  linkWebAddress: "URL Web",
+  linkText: "Texto",
+  linkToolTip: "ToolTip",
+  linkOpenInNewWindow: "Abrir enlace en nueva ventana",
+  dialogUpdate: "Actualizar",
   dialogInsert: "Insertar",
   dialogButtonSeparator: "o",
-  dialogCancel: "Cancelar"
+  dialogCancel: "Cancelar",
+  createTable: "Crear tabla",
+  addColumnLeft: "Añadir columna a la izquierda",
+  addColumnRight: "Añadir columna a la derecha",
+  addRowAbove: "Añadir fila arriba",
+  addRowBelow: "Añadir fila abajo",
+  deleteRow: "Eliminar fila",
+  deleteColumn: "Eliminar columna"
  /***************************************************************************/   
 });
+
+kendo.ui.NumericTextBox.prototype.options =
+    jQuery.extend(kendo.ui.NumericTextBox.prototype.options, {
+
+        /* NUMERIC TEXT BOX OR INTEGER TEXT BOX MESSAGES
+        ****************************************************************************/
+        upArrowText: "Incrementa valor",
+        downArrowText: "Decrementa valor"
+        /***************************************************************************/
+    });
+
+//The upload part add by IKKI
+kendo.ui.Upload.prototype.options.localization = 
+	jQuery.extend(kendo.ui.Upload.prototype.options.localization, {
+
+/* UPLOAD LOCALIZATION
+ ****************************************************************************/
+	select: "Selecciona ficheros...",
+	cancel: "Cancelar",
+	retry: "Intentar de nuevo",
+	remove: "Eliminar",
+	uploadSelectedFiles: "Subir ficheros",
+	dropFilesHere: "Arrastra ficheros aquí para subir",
+	statusUploading: "subiendo",
+	statusUploaded: "subidos",
+	statusWarning: "aviso",
+	statusFailed: "error",
+	headerStatusUploading: "Subiendo...",
+	headerStatusUploaded: "Terminado"
+ /***************************************************************************/
+});
+

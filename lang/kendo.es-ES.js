@@ -1,6 +1,6 @@
 /*
-* Kendo UI Localization Project for v2012.3.1114 
-* Copyright 2012 Telerik AD. All rights reserved.
+* Kendo UI Localization Project for v2013.3.1316
+* Copyright 2014 Telerik AD. All rights reserved.
 * 
 * Español de España (es-ES) Language Pack
 *
@@ -8,6 +8,7 @@
 * Kendo UI home : http://kendoui.com
 * Author        : Felipe Machado (Loudenvier) 
 *                 http://feliperochamachado.com.br/index_en.html
+* Update        : Joe Bordes (JPL TSolucio, S.L.)
 *
 * This project is released to the public domain, although one must abide to the 
 * licensing terms set forth by Telerik to use Kendo UI, as shown bellow.
@@ -27,9 +28,11 @@ var labels = {
 	"ColumnMenu": {
 		"messages": {
 			"sortAscending": "Orden Ascendente",
-      "sortDescending": "Orden Descendente",
+			"sortDescending": "Orden Descendente",
 			"filter": "Filtro",
-			"columns": "Columnas"
+			"columns": "Columnas",
+			"done": "Terminado",
+			"settings": "Configuración Columna"
 		}
 	},
 	"Groupable": {
@@ -46,7 +49,10 @@ var labels = {
 			"clear": "Limpiar",
 			"and": "Y",
 			"or": "O",
-			"selectValue": "-Seleccione-"
+			"selectValue": "-Seleccione-",
+			"operator": "Operador",
+			"value": "Valor",
+			"cancel": "Cancelar"
 		},
 		"operators": {
 			"string": {
@@ -116,7 +122,8 @@ var labels = {
 			"deleteFile": "¿Está seguro que desea eliminar \"{0}\"?",
 			"invalidFileType": "El archivo \"{0}\" no es válido. Los tipos de archivos compatibles son {1}.",
 			"overwriteFile": "Ya existe un archivo llamado \"{0}\" en el directorio actual. ¿Desea sobreescribirlo?",
-			"dropFilesHere": "suelte aquí los archivos para cargarlos"
+			"dropFilesHere": "suelte aquí los archivos para cargarlos",
+			"search": "Buscar"
 		}
 	},
 	"Editor": {
@@ -139,11 +146,13 @@ var labels = {
 			"unlink": "Eliminar enlace",
 			"insertImage": "Insertar imagen",
 			"insertHtml": "Insertar HTML",
+			"viewHtml": "Ver HTML",
 			"fontName": "Seleccione la familia de fuentes",
 			"fontNameInherit": "(fuente heredada)",
 			"fontSize": "Seleccione el tamaño de fuente",
 			"fontSizeInherit": "(tamaño heredado)",
 			"formatBlock": "Dar formato",
+			"formatting": "Formateando",
 			"foreColor": "Color",
 			"backColor": "Color del fondo",
 			"style": "Estilos",
@@ -158,9 +167,21 @@ var labels = {
 			"directoryNotFound": "No se encontró el directorio con este nombre.",
 			"imageWebAddress": "Dirección Web",
 			"imageAltText": "Texto alternativo",
+			"linkWebAddress": "URL Web",
+			"linkText": "Texto",
+			"linkToolTip": "ToolTip",
+			"linkOpenInNewWindow": "Abrir enlace en nueva ventana",
+			"dialogUpdate": "Actualizar",
 			"dialogInsert": "Insertar",
 			"dialogButtonSeparator": "o",
-			"dialogCancel": "Cancelar"
+			"dialogCancel": "Cancelar",
+			"createTable": "Crear tabla",
+			"addColumnLeft": "Añadir columna a la izquierda",
+			"addColumnRight": "Añadir columna a la derecha",
+			"addRowAbove": "Añadir fila arriba",
+			"addRowBelow": "Añadir fila abajo",
+			"deleteRow": "Eliminar fila",
+			"deleteColumn": "Eliminar columna"
 		}
 	},
 	"Upload": {
@@ -173,6 +194,7 @@ var labels = {
 			'dropFilesHere': "Arrastra ficheros aquí para subir",
 			'statusUploading': "subiendo",
 			'statusUploaded': "subidos",
+			"statusWarning": "aviso",
 			'statusFailed': "error",
 			'headerStatusUploading': "Subiendo...",
 			'headerStatusUploaded': "Terminado"
@@ -181,14 +203,14 @@ var labels = {
 };
 
 kendo.ui.NumericTextBox.prototype.options =
-    $.extend(kendo.ui.NumericTextBox.prototype.options, {
+	jQuery.extend(kendo.ui.NumericTextBox.prototype.options, {
 
-        /* NUMERIC TEXT BOX OR INTEGER TEXT BOX MESSAGES
-        ****************************************************************************/
-        upArrowText: "Incrementa valor",
-        downArrowText: "Decrementa valor"
-        /***************************************************************************/
-    });
+	/* NUMERIC TEXT BOX OR INTEGER TEXT BOX MESSAGES
+	 ****************************************************************************/
+		upArrowText: "Incrementa valor",
+		downArrowText: "Decrementa valor"
+	/***************************************************************************/
+	});
 
 // Loop through all Components
 for(var componentName in labels){
@@ -199,6 +221,6 @@ for(var componentName in labels){
 		var optionLabels = component[optionName];
 		
 		// Extend the KendoUI labels for the current option
-		$.extend(kendo.ui[componentName].prototype.options[optionName], optionLabels);
+		jQuery.extend(kendo.ui[componentName].prototype.options[optionName], optionLabels);
 	}
 }
