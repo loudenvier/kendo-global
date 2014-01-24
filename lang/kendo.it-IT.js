@@ -1,12 +1,13 @@
 /*
-* Kendo UI Localization Project for v2012.3.1114 
-* Copyright 2012 Telerik AD. All rights reserved.
+* Kendo UI Localization Project for v2013.3.1316
+* Copyright 2014 Telerik AD. All rights reserved.
 * 
 * Italian (it-IT) Language Pack
 *
 * Project home  : https://github.com/loudenvier/kendo-global
 * Kendo UI home : http://kendoui.com
 * Author        : Paolo Ascari 
+*               : Giuliano Comugnaro
 *
 * This project is released to the public domain, although one must abide to the 
 * licensing terms set forth by Telerik to use Kendo UI, as shown bellow.
@@ -29,7 +30,9 @@ kendo.ui.ColumnMenu.prototype.options.messages =
       sortAscending: "Ordina in modo crescente",
       sortDescending: "Ordina in modo decrescente",
       filter: "Filtra",
-      columns: "Colonne"
+      columns: "Colonne",
+      done: "Eseguito",
+      settings: "Impostazioni colonna"
       /***************************************************************************/
   });
 
@@ -48,13 +51,17 @@ kendo.ui.FilterMenu.prototype.options.messages =
       /* FILTER MENU MESSAGES 
        ***************************************************************************/
       info: "Mostra elementi il cui valore:", // sets the text on top of the filter menu
-      isTrue: "E' Vero",                      // sets the text for "isTrue" radio button
-      isFalse: "E' Falso",                    // sets the text for "isFalse" radio button
+
       filter: "Filtra",                       // sets the text for the "Filter" button
       clear: "Rimuovi Filtri",                // sets the text for the "Clear" button
+      isTrue: "E' Vero",                      // sets the text for "isTrue" radio button
+      isFalse: "E' Falso",                    // sets the text for "isFalse" radio button
       and: "Ed anche",
       or: "Oppure",
-      selectValue: "-Seleziona-"
+      selectValue: "-Seleziona-",
+      operator: "Operator",
+      value: "Value",
+      cancel: "Cancel"
       /***************************************************************************/
   });
 
@@ -142,7 +149,8 @@ kendo.ui.ImageBrowser.prototype.options.messages =
       deleteFile: 'Sei sicuro di voler cancellare "{0}"?',
       invalidFileType: "Il file selezionato \"{0}\" non è valido. I tipi di file supportati sono {1}.",
       overwriteFile: "Un file con il nome \"{0}\" esiste già nella cartella corrente. Vuoi sovrascriverlo?",
-      dropFilesHere: "Trascina un file qui per caricarlo"
+      dropFilesHere: "Trascina un file qui per caricarlo",
+      search: "Cerca"
       /***************************************************************************/
   });
 
@@ -169,11 +177,13 @@ kendo.ui.Editor.prototype.options.messages =
       unlink: "Rimuovi collegamento",
       insertImage: "Inserisci immagine",
       insertHtml: "Inserisci HTML",
+      viewHtml: "Visualizza l'HTML",
       fontName: "Seleziona il tipo di caratteri",
       fontNameInherit: "(tipo ereditato)",
       fontSize: "Seleziona la dimensione dei caratteri",
       fontSizeInherit: "(dimensione ereditata)",
       formatBlock: "Formatta",
+      formatting: "Formatta",
       foreColor: "Colore",
       backColor: "Colore di sfondo",
       style: "Stili",
@@ -188,8 +198,50 @@ kendo.ui.Editor.prototype.options.messages =
       directoryNotFound: "Una cartella con questo nome non è stata trovata.",
       imageWebAddress: "Indirizzo Web",
       imageAltText: "Testo alternativo",
+      linkWebAddress: "Indirizzo Web",
+      linkText: "Testo",
+      linkToolTip: "ToolTip",
+      linkOpenInNewWindow: "Apri il link in una nuova finestra",
+      dialogUpdate: "Aggiorna",
       dialogInsert: "Inserisci",
       dialogButtonSeparator: "o",
-      dialogCancel: "Annulla"
+      dialogCancel: "Annulla",
+      createTable: "Crea tabella",
+      addColumnLeft: "Aggiungi una colonna a sinistra",
+      addColumnRight: "Aggiungi una colonna a destra",
+      addRowAbove: "Aggiungi una riga sopra",
+      addRowBelow: "Aggiungi una riga sotto",
+      deleteRow: "Cancella riga",
+      deleteColumn: "Cancella colonna"
       /***************************************************************************/
   });
+
+kendo.ui.NumericTextBox.prototype.options =
+    $.extend(kendo.ui.NumericTextBox.prototype.options, {
+
+        /* NUMERIC TEXT BOX OR INTEGER TEXT BOX MESSAGES
+        ****************************************************************************/
+        upArrowText: "Incrementa il valore",
+        downArrowText: "Decrementa il valore"
+        /***************************************************************************/
+    });
+
+kendo.ui.Upload.prototype.options.localization =
+	$.extend(kendo.ui.Upload.prototype.options.localization, {
+
+	    /* UPLOAD LOCALIZATION
+         ****************************************************************************/
+	    select: "Seleziona file...",
+	    cancel: "Annulla",
+	    retry: "Riprova",
+	    remove: "Rimuovi",
+	    uploadSelectedFiles: "Carica file",
+	    dropFilesHere: "trascina un file qui per caricarlo",
+	    statusUploading: "caricamento in corso",
+	    statusUploaded: "caricato",
+	    statusWarning: "attenzione",
+	    statusFailed: "fallito",
+	    headerStatusUploading: "Caricamento in corso...",
+	    headerStatusUploaded: "Eseguito"
+	    /***************************************************************************/
+	});
