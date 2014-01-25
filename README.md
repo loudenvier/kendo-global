@@ -121,6 +121,7 @@ Credits
 | ar-JO    | Arabic                     | Wael Mahameed                                             |
 | da-DK    | Standard Danish            | Klaus Nielsen                                             |
 | de-DE    | Standard German            | Claudio Mertz                                             |
+| en-GB    | British English            | Simba-Mupfunya                                            |
 | es-EC    | Ecuadorian Spanish         | Andrés Checa                                              |
 | es-ES    | Spanish Standard           | i0i0,Joe Bordes(JPL TSolucio)                             |
 | es-MX    | Mexican Spanish            | Salvador Parra,Joe Bordes(JPL TSolucio)                   |
