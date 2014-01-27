@@ -129,6 +129,7 @@ Credits
 | fa-IR    | Persian/Farsi (Iran)       | Bahman Nikkhahan                                          |
 | fr-CA    | French (Canadian)          | Martin Auclair                                            |
 | fr-FR    | French Standard            | Jonas Van der Biest                                       |
+| hr-HR    | Croatian                   | nixa333                                                   |
 | hu-HU    | Hungarian                  | Janos Meszaros (Janez)                                    |
 | it-IT    | Italian                    | Paolo Ascari                                              |
 | nb-NO    | Standard Norwegian         | Mikael Gyth                                               |
