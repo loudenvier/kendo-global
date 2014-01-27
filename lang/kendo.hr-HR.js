@@ -2,12 +2,11 @@
 * Kendo UI Localization Project for v2012.3.1114 
 * Copyright 2012 Telerik AD. All rights reserved.
 * 
-* English US (en-US) Language Pack
+* Croatian Language Pack (hr-HR)
 *
 * Project home  : https://github.com/loudenvier/kendo-global
 * Kendo UI home : http://kendoui.com
-* Author        : Felipe Machado (Loudenvier) 
-*                 http://feliperochamachado.com.br/index_en.html
+* Author        : nixa333
 *
 * This project is released to the public domain, although one must abide to the 
 * licensing terms set forth by Telerik to use Kendo UI, as shown bellow.
