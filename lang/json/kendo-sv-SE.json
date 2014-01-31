@@ -1,0 +1,146 @@
+{
+    "Locale": "sv-SE",
+    "Description": "Sverige",
+    "Components": {
+        "ColumnMenu": {
+            "messages": {
+                "sortAscending": "Stigande",
+                "sortDescending": "Fallande",
+                "filter": "Filter",
+                "columns": "Kolumner"
+            }
+        },
+        "Groupable": {
+            "messages": {
+                "empty": "Dra en kolumnrubrik och släpp den här för att gruppera på den kolumnen"
+            }
+        },
+        "FilterMenu": {
+            "messages": {
+                "info": "Visa poster med",
+                "filter": "Filtrera",
+                "clear": "Ta bort",
+                "isTrue": "Är sann",
+                "isFalse": "Är falsk",
+                "and": "Och",
+                "or": "Eller",
+                "selectValue": "-Välj ett värde-"
+            },
+            "operators": {
+                "string": {
+                    "eq": "Lika med",
+                    "neq": "Inte lika med",
+                    "startswith": "Börjar med",
+                    "contains": "Innehåller",
+                    "døsnotcontain": "Innehåller inte",
+                    "endswith": "Slutar med"
+                },
+                "number": {
+                    "eq": "Lika med",
+                    "neq": "Inte lika med",
+                    "gte": "Större än eller lika med",
+                    "gt": "Större än",
+                    "lte": "Mindre än eller lika med",
+                    "lt": "Mindre än"
+                },
+                "date": {
+                    "eq": "Lika med",
+                    "neq": "Inte lika med",
+                    "gte": "Större än eller lika med",
+                    "gt": "Större än",
+                    "lte": "Mindre än eller lika med",
+                    "lt": "Mindre än"
+
+                },
+                "enums": {
+                    "eq": "Lika med",
+                    "neq": "Inte lika med"
+                }
+            }
+        },
+        "Pager": {
+            "messages": {
+                "display": "{0} - {1} av {2} poster",
+                "empty": "Inga poster",
+                "page": "Sida",
+                "of": "av {0}",
+                "itemsPerPage": "Poster per sida",
+                "first": "Första sidan",
+                "previous": "Föregående sida",
+                "next": "Nästa sida",
+                "last": "Sista sidan",
+                "refresh": "Uppdatera"
+            }
+        },
+        "Validator": {
+            "messages": {
+                "required": "{0} är obligatorisk",
+                "pattern": "{0} är ogiltig",
+                "min": "{0} ska vara större än eller lika med {1}",
+                "max": "{0} ska vara mindre än eller lika med {1}",
+                "step": "{0} är ogiltig",
+                "email": "{0} är inte en giltig e-mail-adress",
+                "url": "{0} är inte en giltig URL",
+                "date": "{0} er inte ett giltigt datum"
+            }
+        },
+        "ImageBrowser": {
+            "messages": {
+                "uploadFile": "Skickar",
+                "orderBy": "Sortera efter",
+                "orderByName": "Namn",
+                "orderBySize": "Storlek",
+                "directoryNotFound": "Biblioteket kunde inte hittas.",
+                "emptyFolder": "Tom mapp",
+                "deleteFile": "Är du säker på du vill radera filen: \"{0}\"?",
+                "invalidFileType": "Det valda filformatet: \"{0}\" är ogiltigt. Giltiga filformat är {1}.",
+                "overwriteFile": "En fil med samma namn \"{0}\" existerar redan, vill du skriva över?",
+                "dropFilesHere": "Släpp filer här"
+            }
+        },
+        "Editor": {
+            "messages": {
+                "bold": "Fet",
+                "italic": "Kursiv",
+                "underline": "Understruket",
+                "strikethrough": "Genomstruket",
+                "superscript": "Framhävd",
+                "subscript": "Sänkt",
+                "justifyCenter": "Centrerat",
+                "justifyLeft": "Vänstrejustera",
+                "justifyRight": "Höjrejustera",
+                "justifyFull": "Lika marginaler",
+                "insertUnorderedList": "Klistra in osorterad lista",
+                "insertOrderedList": "Klistra in sorterad lista",
+                "indent": "Öka indrag",
+                "outdent": "Minska indrag",
+                "createLink": "Skapa länk",
+                "unlink": "Radera länk",
+                "insertImage": "Klistra in bild",
+                "insertHtml": "Klistra in HTML",
+                "fontName": "Font",
+                "fontNameInherit": "(Ärvd font)",
+                "fontSize": "Fontstorlek",
+                "fontSizeInherit": "(Ärvd fontstorlek)",
+                "formatBlock": "Format",
+                "foreColor": "Färg",
+                "backColor": "Bakgrundsfärg",
+                "style": "Stil",
+                "emptyFolder": "Tom mapp",
+                "uploadFile": "Skickar",
+                "orderBy": "Sortera efter:",
+                "orderBySize": "Storlek",
+                "orderByName": "Namn",
+                "invalidFileType": "Det valda filformatet: \"{0}\" är ogiltigt. Giltiga filformat är {1}.",
+                "deleteFile": "Är du säker på du vill radera filen: \"{0}\"?",
+                "overwriteFile": "En fil med samma namn \"{0}\" existerar redan, vill du skriva över?",
+                "directoryNotFound": "Biblioteket kunde inte hittas.",
+                "imageWebAddress": "Internet adress",
+                "imageAltText": "Alternativ Text",
+                "dialogInsert": "Ersätt",
+                "dialogButtonSeparator": "eller",
+                "dialogCancel": "Avbryt"
+            }
+        }
+    }
+}

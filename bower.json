@@ -1,0 +1,30 @@
+{
+    "name": "kendo-global",
+    "version": "1.1.0",
+    "homepage": "https://github.com/loudenvier/kendo-global",
+    "authors": [
+        "Felipe Machado"
+    ],
+    "description": "Language packs for Telerik's Kendo UI (open source and commercial version)",
+    "keywords": [
+        "kendo",
+        "kendo-ui",
+        "localization",
+        "translation",
+        "language",
+        "globalization",
+        "locale",
+        "global"
+    ],
+    "license": "Public Domain",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jQuery": ">= 1.6.0"
+    }
+}

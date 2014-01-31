@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gulp": "~3.5.0",
+    "gulp-wrap": "~0.3.0",
+    "gulp-rename": "~0.2.2",
+    "gulp-clean": "~0.2.4",
+    "glob": "~3.2.8",
+    "gulp-template": "~0.1.1"
+  }
+}
