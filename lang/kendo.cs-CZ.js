@@ -180,7 +180,7 @@ kendo.ui.Editor.prototype.options.messages =
 	  insertHtml: "Vložit HTML",
 	  viewHtml: "Zobrazit HTML",
 	  fontName: "Vybrat písmo",
-	  fontNameInherit: "(zdědený font)",
+	  fontNameInherit: "(zděděný font)",
 	  fontSize: "Vybrat veliost písma",
 	  fontSizeInherit: "(zděděná velikost)",
 	  formatBlock: "Formát",
