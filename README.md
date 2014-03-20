@@ -119,6 +119,7 @@ Credits
 | Language | Name                       | Author                                                    |
 | -------- | -------------------------- | --------------------------------------------------------- |
 | ar-JO    | Arabic                     | Wael Mahameed                                             |
+| cs-CZ    | Czech                      | Venca "SinKien" Beca                                      |
 | da-DK    | Standard Danish            | Klaus Nielsen                                             |
 | de-DE    | Standard German            | Claudio Mertz                                             |
 | en-GB    | British English            | Simba-Mupfunya                                            |
@@ -131,9 +132,11 @@ Credits
 | fr-FR    | French Standard            | Jonas Van der Biest                                       |
 | hr-HR    | Croatian                   | nixa333                                                   |
 | hu-HU    | Hungarian                  | Janos Meszaros (Janez)                                    |
+| ms-MY    | Malaysian Malay            | Ikhwan Hayat (https://github.com/ikhwanhayat)             |
 | it-IT    | Italian                    | Paolo Ascari                                              |
 | nb-NO    | Standard Norwegian         | Mikael Gyth                                               |
 | nl-BE    | Dutch (Belgium)            | Jonas Van der Biest                                       |
+| nl-NL    | Dutch (Nederlands)         | josdeweger                                                |
 | pl-PL    | Polski Poland (pl-PL)      | Miroslaw Szajner                                          |
 | pt-BR    | Brazilian Portuguese       | [Felipe Rocha Machado](http://feliperochamachado.com.br)  |
 | pt-PT    | Portuguese (Portugal)      | Pedro Carvalho                                            |
