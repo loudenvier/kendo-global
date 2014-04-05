@@ -92,7 +92,7 @@ kendo.ui.FilterMenu.prototype.options.operators =
   },
   enums: {
 	  eq: "równą",
-      neq: "różną od",
+      neq: "różną od"
   }
  /***************************************************************************/   
 });
