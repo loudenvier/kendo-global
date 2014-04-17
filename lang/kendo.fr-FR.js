@@ -194,3 +194,160 @@ kendo.ui.Editor.prototype.options.messages =
   dialogCancel: "Abandonner"
  /***************************************************************************/   
 });
+
+/**
+ *  PULL REQUEST START : Scheduler french localization
+ */
+
+/** Confirmation message for deletion is not in options.messages object  **/
+kendo.ui.Scheduler.prototype.options.editable = $.extend(kendo.ui.Scheduler.prototype.options.editable, {
+	confirmation: "Êtes-vous sur de vouloir supprimer l'événement ?"
+});
+kendo.ui.Scheduler.prototype.options.messages = $.extend(kendo.ui.Scheduler.prototype.options.messages, {
+
+	/*******************************************************************
+	 * SCHEDULER MESSAGES
+	 ******************************************************************/
+	"today": "Aujourd'hui",
+	"save": "Sauvegarder",
+	"cancel": "Annuler",
+	"destroy": "Supprimer",
+        "event": "Évenement",
+        "date": "Date",
+        "time": "Horaire",
+        "allDay": "Toute la journée",
+	"deleteWindowTitle": "Supprimer l'événement",
+	"ariaSlotLabel": "Selectionné depuis {0:t} jusqu'à {1:t}",
+	"ariaEventLabel": "{0} le {1:D} à {2:t}",
+	"views": {
+		"day": "Jour",
+		"week": "Semaine",
+		"workWeek": "Jours travaillés",
+		"agenda": "Agenda",
+		"month": "Mois"
+	},
+	"recurrenceMessages": {
+		"deleteWindowTitle": "Supprimer un événement récurrent",
+		"deleteWindowOccurrence": "Supprimer l'événement courant",
+		"deleteWindowSeries": "Supprimer la série",
+		"editWindowTitle": "Supprimer l'événement récurrent",
+		"editWindowOccurrence": "Modifier l'événement courant",
+		"editWindowSeries": "Modifier la série",
+            "editRecurring": "Souhaitez-vous modifier seulement l'événement courant ou la série complète ?",
+            "deleteRecurring": "Souhaitez-vous supprimer seulement l'événement courant ou la série complète ?"
+	},
+	"editor": {
+		"title": "Titre",
+		"start": "Début",
+		"end": "Fin",
+		"allDayEvent": "Toute la journée",
+		"description": "Description",
+		"repeat": "Répéter",
+		"timezone": " ",
+		"startTimezone": "Fuseau horaire début",
+		"endTimezone": "Fuseau horaire fin",
+		"separateTimezones": "Utiliser des fuseaux horaires différents pour le début et la fin",
+		"timezoneEditorTitle": "Fuseaux horaires",
+		"timezoneEditorButton": "Fuseau horaire",
+		"timezoneTitle": "Fuseaux horaires",
+		"noTimezone": "Pas de fuseau horaire",
+		"editorTitle": "Évenement"
+	},
+	 "recurrenceEditor": {
+            "frequencies": {
+                "never": "Jamais",
+                "daily": "Quotidien",
+                "weekly": "Hebdomadaire",
+                "monthly": "Mensuel",
+                "yearly": "Annuel"
+            },
+            "daily": {
+                "repeatEvery": "Répéter tous les: ",
+                "interval": " jour(s)"
+            },
+            "weekly": {
+                "interval": " semaines(s)",
+                "repeatEvery": "Répéter tous les: ",
+                "repeatOn": "Répéter le:",
+            },
+            "monthly": {
+                "repeatEvery": "Répéter tous les: ",
+                "repeatOn": "Répéter le:",
+                "interval": " mois",
+                "day": "Jour "
+            },
+            "yearly": {
+                "repeatEvery": "Répéter tous les: ",
+                "repeatOn": "Répéter le:",
+                "interval": " année(s)",
+                "of": " de "
+            },
+            "end": {
+                "label": "Fin:",
+                "never": "Jamais",
+                "after": "Après ",
+                "occurrence": " occurence(s)",
+                "on": "Le "
+            },
+            "offsetPositions": {
+                "first": "premier",
+                "second": "second",
+                "third": "troisième",
+                "fourth": "quatrième",
+                "last": "dernier"
+            },
+            "weekdays": {
+                "day": "jour",
+                "weekday": "jour de la semaine",
+                "weekend": "jour du weekend"
+            }
+        }
+});
+/**
+ * From here, I extend the option object because of the dateHeaderTemplate property that does not use loaded culture to format the date.
+ */
+kendo.ui.MultiDayView.prototype.options = $.extend(kendo.ui.MultiDayView.prototype.options, {
+	/*******************************************************************
+	 * MULTIDAYVIEW(SCHEDULER) MESSAGES
+	 ******************************************************************/
+	"messages": {
+		"allDay": "Toute la journée",
+		"showFullDay": "Voir la journée complète",
+		"showWorkDay": "Voir les heures travaillées"
+	},
+	"dateHeaderTemplate": "<span class='k-link k-nav-day'>#=kendo.toString(date, 'ddd dd/MM')#</span>"
+	
+});
+kendo.ui.DayView.prototype.options = $.extend(kendo.ui.DayView.prototype.options, {
+	/*******************************************************************
+	 * DAYVIEW(SCHEDULER) MESSAGES
+	 ******************************************************************/
+	"messages" : {
+		"allDay": "Toute la journée",
+		"showFullDay": "Voir la journée complète",
+		"showWorkDay": "Voir les heures travaillées"
+	},
+	"dateHeaderTemplate" : "<span class='k-link k-nav-day'>#=kendo.toString(date, 'ddd dd/MM')#</span>"
+});
+kendo.ui.WeekView.prototype.options = $.extend(kendo.ui.WeekView.prototype.options, {
+	/*******************************************************************
+	 * WEEKVIEW(SCHEDULER) MESSAGES
+	 ******************************************************************/
+	"messages" : {
+		"allDay": "Toute la journée",
+		"showFullDay": "Voir la journée complète",
+		"showWorkDay": "Voir les heures travaillées"
+	},
+	"dateHeaderTemplate" : "<span class='k-link k-nav-day'>#=kendo.toString(date, 'ddd dd/MM')#</span>"
+});
+kendo.ui.WorkWeekView.prototype.options = $.extend(kendo.ui.WorkWeekView.prototype.options, {
+	/*******************************************************************
+	 * WORKWEEKVIEW(SCHEDULER) MESSAGES
+	 ******************************************************************/
+	"messages" : {
+		"allDay": "Toute la journée",
+		"showFullDay": "Voir la journée complète",
+		"showWorkDay": "Voir les heures travaillées"
+	},
+	"dateHeaderTemplate" : "<span class='k-link k-nav-day'>#=kendo.toString(date, 'ddd dd/MM')#</span>"
+});
