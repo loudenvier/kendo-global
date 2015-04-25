@@ -48,7 +48,7 @@ kendo.ui.FilterMenu.prototype.options.messages =
   
 /* FILTER MENU MESSAGES 
  ***************************************************************************/   
-	info: "Título:",        // sets the text on top of the filter menu
+	info: "Filtro:",        // sets the text on top of the filter menu
 	filter: "Filtrar",      // sets the text for the "Filter" button
 	clear: "Limpar",        // sets the text for the "Clear" button
 	// when filtering boolean numbers
@@ -57,7 +57,7 @@ kendo.ui.FilterMenu.prototype.options.messages =
 	//changes the text of the "And" and "Or" of the filter menu
 	and: "E",
 	or: "Ou",
-  selectValue: "-selecione um valor-"
+  selectValue: "Selecione um valor"
  /***************************************************************************/   
 });
          
@@ -103,15 +103,15 @@ kendo.ui.Pager.prototype.options.messages =
 /* PAGER MESSAGES 
  ****************************************************************************/   
   display: "{0} - {1} de {2} itens",
-  empty: "Nada a exibir",
+  empty: "Nenhum item encontrado",
   page: "Página",
   of: "de {0}",
   itemsPerPage: "itens por página",
-  first: "Vai para primeira página",
-  previous: "Vai para página anterior",
-  next: "Vai para página seguinte",
-  last: "Vai para última página",
-  refresh: "Atualiza"
+  first: "Primeira página",
+  previous: "Página anterior",
+  next: "Próxima página",
+  last: "Última página",
+  refresh: "Atualizar dados"
  /***************************************************************************/   
 });
 
@@ -125,9 +125,9 @@ kendo.ui.Validator.prototype.options.messages =
   min: "{0} deve ser maior que ou igual a {1}",
   max: "{0} deve ser menor que ou igual a {1}",
   step: "{0} não é válido",
-  email: "{0} não é um email válido",
-  url: "{0} não é uma URL válida",
-  date: "{0} não é uma data válida"
+  email: "{0} não é e-mail válido",
+  url: "{0} não é URL válida",
+  date: "{0} não é data válida"
  /***************************************************************************/   
 });
 
@@ -145,7 +145,7 @@ kendo.ui.ImageBrowser.prototype.options.messages =
   deleteFile: 'Tem certeza que deseja excluir "{0}"?',
   invalidFileType: "O arquivo selecionado \"{0}\" não é válido. Os tipos de arquivo suportados são {1}.",
   overwriteFile: "Um arquivo com o nome \"{0}\" já existe na pasta atual. Você quer sobrescrevê-lo?",
-  dropFilesHere: "solte arquivos aqui para enviá-los"
+  dropFilesHere: "Solte arquivos aqui para enviá-los"
  /***************************************************************************/   
 });
 
@@ -164,15 +164,15 @@ kendo.ui.Editor.prototype.options.messages =
   justifyLeft: "Alinhar texto à esquerda",
   justifyRight: "Alinhar texto à direita",
   justifyFull: "Justificar",
-  insertUnorderedList: "Inserir list não ordenada",
-  insertOrderedList: "Iserir lista ordenada",
+  insertUnorderedList: "Inserir lista não ordenada",
+  insertOrderedList: "Inserir lista ordenada",
   indent: "Aumentar recuo",
   outdent: "Diminuir recuo",
   createLink: "Inserir link",
   unlink: "Remover link",
   insertImage: "Inserir imagem",
   insertHtml: "Inserir HTML",
-  fontName: "Selecionar família da fonte",
+  fontName: "Selecionar fonte",
   fontNameInherit: "(fonte herdada)",
   fontSize: "Selecionar tamanho da fonte",
   fontSizeInherit: "(tamanho herdado)",
@@ -189,7 +189,7 @@ kendo.ui.Editor.prototype.options.messages =
   deleteFile: 'Tem certeza que deseja excluir "{0}"?',
   overwriteFile: 'Um arquivo com o nome "{0}" já existe na pasta atual. Você quer sobrescrevê-lo?',
   directoryNotFound: "Uma pasta com este nome não foi encontrada.",
-  imageWebAddress: "Endereço internet",
+  imageWebAddress: "Endereço web",
   imageAltText: "Texto alternativo",
   dialogInsert: "Inserir",
   dialogButtonSeparator: "ou",
