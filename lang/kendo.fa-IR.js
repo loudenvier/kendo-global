@@ -219,3 +219,19 @@ kendo.ui.Editor.prototype.options.messages =
 		dialogCancel: "انصراف"
 	/***************************************************************************/
 });
+
+kendo.ui.Upload.prototype.options.messages =
+    $.extend(kendo.ui.Upload.prototype.options.messages, {
+        select: 'انتخاب فایل‌ها برای ارسال',
+        remove: 'حذف فایل',
+        retry: 'سعی مجدد',
+        headerStatusUploading: 'در حال ارسال فایل‌ها',
+        headerStatusUploaded: 'پایان ارسال',
+        cancel: "لغو",
+        uploadSelectedFiles: "ارسال فایل‌ها",
+        dropFilesHere: "فایل‌ها را برای ارسال، کشیده و در اینجا رها کنید",
+        statusUploading: "در حال ارسال",
+        statusUploaded: "ارسال شد",
+        statusWarning: "اخطار",
+        statusFailed: "خطا در ارسال"
+    });
