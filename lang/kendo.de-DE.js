@@ -39,7 +39,7 @@ kendo.ui.Groupable.prototype.options.messages =
 
 /* GRID GROUP PANEL MESSAGES 
  ****************************************************************************/   
-  empty: "Keine Einträge vorhanden"
+  empty: "Legen Sie hier eine Spaltenüberschrift ab um diese zu gruppieren"
  /***************************************************************************/   
 });
 
@@ -111,7 +111,8 @@ kendo.ui.Pager.prototype.options.messages =
   previous: "Vorherige Seite",
   next: "Nächste Seite",
   last: "Letzte Seite",
-  refresh: "Aktualisieren"
+  refresh: "Aktualisieren",
+  morePages: "Weitere Seiten"
  /***************************************************************************/   
 });
 
