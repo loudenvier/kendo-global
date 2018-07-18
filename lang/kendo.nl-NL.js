@@ -49,8 +49,8 @@ kendo.ui.FilterMenu.prototype.options.messages =
       /* FILTER MENU MESSAGES 
        ***************************************************************************/
       info: "Laat items zien met een waarde die:", // sets the text on top of the filter menu
-      isTrue: "juist is",                   // sets the text for "isTrue" radio button
-      isFalse: "fout is",                 // sets the text for "isFalse" radio button
+      isTrue: "juist zijn",                   // sets the text for "isTrue" radio button
+      isFalse: "fout zijn",                 // sets the text for "isFalse" radio button
       filter: "Filteren",                    // sets the text for the "Filter" button
       clear: "Leegmaken",                      // sets the text for the "Clear" button
       and: "En",
