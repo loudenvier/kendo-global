@@ -95,6 +95,42 @@ kendo.ui.FilterMenu.prototype.options.operators =
  /***************************************************************************/   
 });
 
+kendo.ui.FilterCell.prototype.options.operators =           
+  $.extend(kendo.ui.FilterCell.prototype.options.operators, {
+
+/* FILTER CELLS OPERATORS (for each supported data type) 
+ ****************************************************************************/   
+  string: {
+      eq: "Est égal à",
+      neq: "N'est pas égal à",
+      startswith: "Commence par",
+      contains: "Contient",
+      doesnotcontain: "Ne contient pas",
+      endswith: "Fini par"
+  },
+  number: {
+      eq: "Est égal à",
+      neq: "N'est pas égal à",
+      gte: "Est plus grand ou égal à",
+      gt: "Est plus grand que",
+      lte: "Est inférieur ou égal à",
+      lt: "Est inférieur que"
+  },
+  date: {
+      eq: "Est le ",
+      neq: "N'est pas le",
+      gte: "Est après ou le",
+      gt: "Est après le",
+      lte: "Est avant ou le",
+      lt: "Est avant le"
+  },
+  enums: {
+      eq: "Est égal à",
+      neq: "N'est pas égal à",
+  }
+ /***************************************************************************/   
+});
+
 kendo.ui.Pager.prototype.options.messages = 
   $.extend(kendo.ui.Pager.prototype.options.messages, {
   
